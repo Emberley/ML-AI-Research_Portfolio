@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# RL agent results – generated at runtime
+research-projects/reinforcement-learning/results/*.npy
+research-projects/reinforcement-learning/results/*.png
+
+# Jekyll build output
+portfolio-website/_site/
+portfolio-website/.jekyll-cache/
+portfolio-website/Gemfile.lock

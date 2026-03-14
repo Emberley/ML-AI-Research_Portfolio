@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  {% seo %}
+</head>
+<body>
+
+  <!-- Site header -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="{{ '/' | relative_url }}" class="site-header__logo">
+        {{ site.title }}
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="site-nav__list">
+          <li><a href="{{ '/projects/' | relative_url }}" class="site-nav__link">Projects</a></li>
+          <li><a href="{{ '/about/' | relative_url }}" class="site-nav__link">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page content -->
+  <main class="site-main">
+    {{ content }}
+  </main>
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        &copy; {{ site.time | date: "%Y" }} {{ site.author }} &mdash;
+        Built with <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
