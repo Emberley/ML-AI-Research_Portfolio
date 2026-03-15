@@ -1,23 +1,13 @@
 # ML & AI Research Portfolio
 
-Welcome to my **ML & AI Research Portfolio**, showcasing my coursework projects, research experiments, and biomimetic neural network investigations. This repository is organized to provide easy access to project code, visualizations, and website demonstrations.
+Welcome to my **ML & AI Research Portfolio**, showcasing my coursework projects and current research. This repository is organized to provide easy access to project details and a summary of current master's research.
 
 ---
-
-## Repository Structure
-ML-AI-Research_Portfolio/
-│
-├── assets/images # Images, plots, and diagrams for projects and portfolio website
-├── coursework-projects # Completed course projects with READMEs, code, and visualizations
-├── portfolio-website # GitHub Pages website files to display portfolio online
-├── research-projects # Ongoing and published research projects including RayBNN, RL, and LLM work
-└── .gitignore # Files and folders excluded from Git version control
 
 ### Folder Details
 
 - **assets/images:** All screenshots, figures, and visual aids used across coursework and research projects.
 - **coursework-projects:** Contains structured READMEs for each course project, including methods, system architecture, technologies used, results, and future work.
-- **portfolio-website:** Files for the GitHub Pages website showcasing the portfolio with interactive navigation and project highlights.
 - **research-projects:** Detailed research project folders for RayBNN, reinforcement learning experiments, LLM knowledge distillation, and other ongoing AI research.
 
 ---
@@ -34,7 +24,6 @@ ML-AI-Research_Portfolio/
 ## Usage
 
 - Navigate to individual project folders (`coursework-projects` or `research-projects`) for detailed READMEs, code, and visuals.
-- The `portfolio-website` folder can be deployed as a GitHub Pages site for a fully interactive portfolio.
 - `assets/images` contains all figures referenced in project READMEs and the website.
 
 ---
