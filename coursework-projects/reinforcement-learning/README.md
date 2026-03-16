@@ -65,11 +65,12 @@ Key findings include:
 - The learned policy maintained a **healthy battery state of charge above 50%**, preventing over-discharge
 - After approximately **10,000 episodes**, the algorithm converged to a stable optimal policy
 
-The results demonstrate that even a tabular Q-learning approach can effectively learn energy scheduling strategies for battery storage systems in microgrid environments. :contentReference[oaicite:1]{index=1}
+The results demonstrate that even a tabular Q-learning approach can effectively learn energy scheduling strategies for battery storage systems in microgrid environments. 
 
 
 ---
 
 ## Visuals
-![Battery Storage Policy](images/battery_policy_plot.png)  
-![Training Convergence](images/q_learning_convergence.png)
+![Q Values](images/q_values_15.png)  
+![Training Convergence](episodes.png)
+![SOC Optimal Policy](optimal_policy.png)
