@@ -10,13 +10,13 @@ This repository showcases my coursework projects, focusing on machine learning, 
 coursework-projects
 │
 ├── machine-learning
-│   └── drug-design-feature-reduction
 │
 ├── natural-language-processing
-│   └── financial-text-mining-stock-analysis
+│   ├── nlp-coop-project 
+│   ├── nlp-graph
+│   └── nlp-text-mining
 │
 ├── reinforcement-learning
-│   └── battery-management-qlearning
 │
 └── README.md
 ```
@@ -24,14 +24,15 @@ coursework-projects
 ---
 
 ## Project Areas
+## Project Areas
 
 ### Machine Learning
-Projects focused on supervised learning, dimensionality reduction, model evaluation, and predictive modeling.
+Supervised learning, dimensionality reduction, and model evaluation.
 
 ### Natural Language Processing
-Projects involving text mining, sentiment analysis, and feature extraction from textual data.
+Text mining, sentiment analysis, and feature extraction from text.
 
 ### Reinforcement Learning
-Projects exploring reinforcement learning algorithms for decision-making and optimization problems.
+Reinforcement learning algorithms for decision-making and optimization.
 
 ---
