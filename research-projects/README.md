@@ -18,7 +18,6 @@ This portfolio highlights my research applying distillation to a novel 3D neural
 - **Ray-Tracing Algorithms:** Random ray generation (RT1), direct connections within the sphere (RT2), and distance-limited connections (RT3) create efficient pathways.  
 - **Neural Architecture:** Sparse matrix representations (CSR) with a Universal Activation Function (UAF) handle 3D data flows.  
 - **Biological Basis:** Models glial cell behavior to reduce power consumption and increase synaptic adaptation.  
-
 ---
 
 ## Research Work
@@ -35,7 +34,6 @@ I am currently extending RayBNN by integrating rl policy distillation** and LLM 
 - Distilling knowledge from LLMs into RayBNN to improve reasoning and token prediction tasks.  
 ---
 
-## Visuals
 ![RayBNN 3D Architecture](images/raybnn_3d.png)  
 
 
