@@ -1,5 +1,5 @@
 # StackExchange Data Science Community Analysis
-**CSC 501: Database Systems Course Project**
+**CSC 501: Data Algorithms and Structures **
 
 ## Overview
 This project analyzes the StackExchange Data Science community to understand user participation dynamics, reputation systems, and badge-based incentives within a question-and-answer platform. The analysis combines exploratory data analysis, relational database modeling, and graph-based modeling to investigate user interactions and how they influence community engagement.
