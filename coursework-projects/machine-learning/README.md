@@ -1,5 +1,5 @@
 # A Multi-Optimization Approach to Classification of Sirtuin6 Small Molecule Inhibitors for Pre-Screening Potential Drug Candidate using Regularized Softmax Regression
-**ECE 503: Optimization in Machine Learning**
+**ECE 503: Optimization in Machine Learning (September 2023 - December 2023)**
 
 ## Overview
 This project investigates the use of **softmax multi-classification** to classify potential small molecule inhibitors targeting the **Sirtuin6 (SIRT6)** protein. The goal is to compare this model combined with optimization methods to enhance performance in identify potential drug candidates. The optimized algorithms used were CGD, BFGS, and  NAG and feature reduction was done as the other optimization technique.In addition to evaluating optimization performance, **feature reduction techniques** were applied using covariance analysis and eigenvalue decomposition.
