@@ -1,6 +1,6 @@
 # ML & AI Research Portfolio
 
-Welcome to my **ML & AI Research Portfolio**, showcasing my coursework projects and current research. This repository is organized to provide easy access to project details and a summary of current master's research.
+Welcome to my **ML & AI Research Portfolio**, showing my coursework projects and information on my current research. This repository is organized to provide easy access to project details and a summary of current master's research.
 
 ---
 
@@ -14,10 +14,11 @@ Welcome to my **ML & AI Research Portfolio**, showcasing my coursework projects 
 
 ## Highlights
 
-- **RayBNN (3D Ray-Traced Biological Neural Network):** Biomimetic AI architecture mimicking brain plasticity for adaptive transfer learning.
+- **RayBNN (3D Ray-Traced Biological Neural Network):** Enhancement of RayBNN architecture to test adaptility and reasoning capability
 - **Reinforcement Learning Projects:** Policy gradient and DQN experiments with CNN feature extraction and RayBNN integration.
-- **LLM Knowledge Distillation:** Research on transferring reasoning capabilities from large language models into RayBNN for efficient AI reasoning.
-- **Coursework Projects:** Includes NLP ticket clustering, stock volatility analysis, StackExchange semantic network analysis, PCA for drug design, and battery storage optimization with RL.
+- ** Policy Distillation:** Research on RL teacher policy trained on Atari dataset and distiled into the RayBNN 
+- **LLM Knowledge Distillation:** Research on transferring reasoning capabilities from large language models into RayBNN 
+- **Coursework Projects:** Includes NLP nnalysis, stock volatility analysis, network analysis, PCA for drug design, and battery storage optimization with RL.
 
 ---
 
@@ -30,7 +31,7 @@ Welcome to my **ML & AI Research Portfolio**, showcasing my coursework projects 
 
 ## Contact & Links
 
-- GitHub Portfolio: [ML-AI-Research_Portfolio](https://github.com/your-username/ML-AI-Research_Portfolio)  
+- GitHub Portfolio: [ML-AI-Research_Portfolio](https://github.com/Emberley/ML-AI-Research_Portfolio)  
 - RayBNN Paper: [Nature Communications Summary](link-to-paper-summary)  
 - RayBNN GitHub: [RayBNN Repo](link-to-github-repo)  
 
