@@ -27,7 +27,7 @@ This portfolio highlights my ongoing research in distillation, particularly focu
 ## Research Work
 I am currently extending RayBNN by integrating **reinforcement learning (RL)** and **LLM knowledge distillation** to explore reasoning, decision-making, and adaptability.
 
-### 1. Reinforcement Learning with RayBNN
+### 1. Reinforcement Learning Policy Distillation into RayBNN
 - Applying policy gradient RL algorithms to train RayBNN agents in simulated environments (e.g., Atari games).  
 - Forward pass through RayBNN for state evaluation; backward pass for policy updates.  
 - Exploring DQN as an alternative, though early results favor policy gradient approaches.  
