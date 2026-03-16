@@ -1,14 +1,25 @@
-# RayBNN Policy Distillation of Atari Pong
+# RayBNN Policy Distillation
 
 ## Overview
-This research is using policy distillation which is supervised learning of a trained teacher action probabilities is distilled into trained on Atari environments into a smaller student network RayBNN. 
+
+This project explores policy distillation and behavior cloning using reinforcement learning. A teacher agent is trained on an Atari environment using **Proximal Policy Optimization (PPO)**. The trained teacher generates **state–action pairs** that are used to train a student neural network, RayBNN through supervised learning.The goal is to evaulated how well the **RayBNN**, a biologically inspired neural architecture,  learns the teacher’s policy.
 
 ## System Architecture
-1. Environment setup (Atari gym environments)  
-2. Teacher agent training (PPO and Actor Critic rl networks)   
+1. Train a PPO reinforcement learning agent on an Atari environment-Pong
+2. Convert into supervised learning data set with labels as action probabilities
+3. Train RayBNN to imitate the teacher policy
+4. Evaluate student policy performance in the Atari environment
+5. Compare student and teacher rewards
 
 
-## Results
+# Technologies Used
+- Python
+- PyTorch
+- Stable-Baselines3
+- Gymnasium
+- ALE (Atari Learning Environment)
+- Behavior Cloning
+- Reinforcement Learning
 
 
 
