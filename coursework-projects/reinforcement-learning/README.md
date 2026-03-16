@@ -1,16 +1,14 @@
 # Reinforcement Learning for Battery Management System Scheduling
-**ECE 559B: Reinforcement Learning Course Project (January 2025 – April 2025)**
+**ECE 559B: Reinforcement Learning Course Project (September 2023 – December 2023)**
 
 
 ## Overview
-This project applies Reinforcement Learning to optimize the scheduling policy of a residential Battery Management System (BMS) within a microgrid environment. The goal is to determine when a battery should charge, discharge, or remain idle based on consumer electricity demand, renewable energy availability, and the battery's state of charge (SOC).
+This project applies reinforcement learning to optimize the scheduling policy of a residential Battery Management System (BMS) within a microgrid environment. The goal is to determine when a battery should charge, discharge, or remain idle based on consumer electricity demand, renewable energy availability, and the battery's state of charge (SOC).
 
-A Q-learning algorithm was implemented to learn an optimal 24-hour scheduling policy. The agent interacts with a simulated environment representing consumer demand and renewable energy production. By learning through temporal difference updates, the agent discovers strategies that charge the battery during periods of renewable energy availability and discharge during peak consumer demand.
-
-This work demonstrates how reinforcement learning can support intelligent energy management in smart grid systems. :contentReference[oaicite:0]{index=0}
+A Q-learning algorithm was implemented to learn an optimal 24-hour scheduling policy. The agent interacts with a simulated environment representing consumer demand and renewable energy charging. The agent discovers strategies that charge the battery during periods of renewable energy availability and discharge during peak consumer demand.
 
 ## Methods
-Formulation of the battery scheduling problem as a **Markov Decision Process (MDP)**  
+Formulation of the battery scheduling problem as a Markov Decision Process (MDP)  
 Definition of state space including:
 - Consumer power demand
 - Renewable power generation
@@ -28,7 +26,7 @@ Implementation of **Q-learning reinforcement learning algorithm** with:
 - Learning rate (α) tuning
 - Exploration parameter (ε) tuning
 
-Simulation of a **24-hour environment** with stochastic consumer demand and renewable energy availability.
+Simulation of a 24-hour environment with stochastic consumer demand and renewable energy availability.
 
 Evaluation performed by analyzing:
 
@@ -46,24 +44,12 @@ Evaluation performed by analyzing:
 7. Update Q-values through temporal difference learning  
 8. Evaluate learned scheduling policy over multiple episodes  
 
-## Technologies
-- Python   
-- Q-Learning  
-- Markov Decision Processes (MDP)  
-- NumPy  
-- Jupyter Notebook  
-- Data Visualization  
-
 ## Results
 The Q-learning agent successfully learned an optimal battery scheduling strategy over multiple training episodes.
-
-Key findings include:
-
-- Optimal hyperparameters were identified as **learning rate α = 0.05** and **exploration rate ε = 0.05**
-- The agent learned to **charge the battery during periods of renewable energy availability**
-- The agent **discharged energy during peak consumer demand periods**
-- The learned policy maintained a **healthy battery state of charge above 50%**, preventing over-discharge
-- After approximately **10,000 episodes**, the algorithm converged to a stable optimal policy
+- Optimal hyperparameters were identified as learning rate α = 0.05 and exploration rate ε = 0.05
+- After approximately 10,000 episodes, the algorithm converged to a stable optimal policy
+- The agent learned to charge the battery during periods of renewable energy availability
+- The agent discharged energy during peak consumer demand periods
 
 The results demonstrate that even a tabular Q-learning approach can effectively learn energy scheduling strategies for battery storage systems in microgrid environments. 
 
@@ -71,6 +57,6 @@ The results demonstrate that even a tabular Q-learning approach can effectively 
 ---
 
 ## Visuals
-![Q Values](image/q_values_15.png)  
-![Training Convergence](image/episodes.png)
+![Q Values](image/episodes.png)  
+![Training Convergence](image/q_values_15png)
 ![SOC Optimal Policy](image/optimal_policy.png)
