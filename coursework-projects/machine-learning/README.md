@@ -2,21 +2,11 @@
 **ECE 503: Optimization in Machine Learning**
 
 ## Overview
-This project investigates the use of **softmax multi-classification** to classify potential small molecule inhibitors targeting the **Sirtuin6 (SIRT6)** protein. The goal is to determine whether a softmax-based classification model combined with optimization techniques can enhance performance in identify potential drug candidates.
+This project investigates the use of **softmax multi-classification** to classify potential small molecule inhibitors targeting the **Sirtuin6 (SIRT6)** protein. The goal is to compare this model combined with optimization methods to enhance performance in identify potential drug candidates. The optimized algorithms used were CGD, BFGS, and  NAG and feature reduction was done as the other optimization technique.In addition to evaluating optimization performance, **feature reduction techniques** were applied using covariance analysis and eigenvalue decomposition.
 
-The dataset was obtained from the **UCI Machine Learning Repository** and processed in MATLAB. Samples were labeled based on binding free energy (BFE), where high BFE values were labeled as potential inhibitors and low BFE values as non-inhibitors. The dataset was randomly shuffled to remove ordering bias and divided into **training and testing datasets**, with 80 samples used for training and 20 samples used for testing.
-
-In addition to evaluating optimization performance, **feature reduction techniques** were applied using covariance analysis and eigenvalue decomposition. This allowed the model to retain the most informative features while significantly reducing computational complexity. The resulting simplified model achieved approximately **20× faster computation while maintaining comparable classification accuracy**.
+The dataset was obtained from the **UCI Machine Learning Repository** and processed in MATLAB. Samples were labeled based on binding free energy (BFE), where high BFE values were labeled as potential inhibitors and low BFE values as non-inhibitors. The dataset was randomly shuffled to remove ordering bias and divided into **training and testing datasets**
 
 ## Methods
-- Regularized softmax regression for binary classification
-- Comparison of multiple optimization algorithms
-- Convergence analysis of loss functions
-- Data normalization using standard scaling
-- Feature reduction using covariance matrix and eigenvalue analysis
-- Evaluation using training/testing accuracy and confusion matrices
-
-## System Architecture
 1. Data collection from UCI Machine Learning Repository
 2. Dataset labeling based on binding free energy (BFE)
 3. Data shuffling and train-test split
