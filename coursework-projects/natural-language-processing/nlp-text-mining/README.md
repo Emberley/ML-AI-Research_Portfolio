@@ -2,14 +2,10 @@
 
 **CSC 503: Data Mining Course Project (January 2024 – April 2024)**
 
----
-
 ## Overview
 This project analyzes financial Twitter data alongside stock market data to investigate whether social sentiment can improve stock trend prediction. Tweets related to the top 25 most watched stocks were text mined and combined with financial data to explore correlations between sentiment and stock price movement.
 
 The objective was to determine whether Natural Language Processing (NLP) features derived from social media text can enhance machine learning classification models to predict market trends.
-
----
 
 ## Methods
 - Collection of financial tweet data and stock price data from public datasets  
@@ -21,20 +17,14 @@ The objective was to determine whether Natural Language Processing (NLP) feature
   - Random Forest
   - Stochastic Gradient Descent  
 - Model evaluation using **accuracy**, **F1-score**, and **cross-validation**
----
 
 ## Technologies
 - Python  
-- Natural Language Processing (NLP)  
 - NLTK  
 - TextBlob  
 - TF-IDF Vectorization  
 - Word Embeddings (GloVe)  
-- Scikit-learn  
-- Data Mining  
-- Machine Learning  
-
----
+- Scikit-learn   
 
 ## Results
 - Incorporating tweet sentiment features improved stock trend prediction accuracy by **1–4%** compared to baseline models  
