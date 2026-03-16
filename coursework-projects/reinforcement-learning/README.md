@@ -8,33 +8,6 @@ This project applies reinforcement learning to optimize the scheduling policy of
 A Q-learning algorithm was implemented to learn an optimal 24-hour scheduling policy. The agent interacts with a simulated environment representing consumer demand and renewable energy charging. The agent discovers strategies that charge the battery during periods of renewable energy availability and discharge during peak consumer demand.
 
 ## Methods
-Formulation of the battery scheduling problem as a Markov Decision Process (MDP)  
-Definition of state space including:
-- Consumer power demand
-- Renewable power generation
-- Battery state of charge (SOC)
-
-Definition of action space:
-- Charge battery
-- Discharge battery
-- Idle
-
-Implementation of **Q-learning reinforcement learning algorithm** with:
-
-- Temporal difference learning updates
-- ε-greedy exploration policy
-- Learning rate (α) tuning
-- Exploration parameter (ε) tuning
-
-Simulation of a 24-hour environment with stochastic consumer demand and renewable energy availability.
-
-Evaluation performed by analyzing:
-
-- Q-value convergence across episodes
-- Learning behavior under different hyperparameters
-- Derived optimal battery scheduling policy.
-
-## System Architecture
 1. Define Battery Management System scheduling problem  
 2. Formulate environment as a Markov Decision Process  
 3. Simulate renewable energy availability and consumer demand  
