@@ -5,17 +5,11 @@
 This project develops a natural language processing (NLP) pipeline to cluster and group related operational tickets, improving searchability and workflow efficiency. The system enables similarity-based retrieval and actionable business insights.
 
 ## Methods
-- Text preprocessing using SpaCy and NLTK  
-- Feature extraction with TF-IDF and word embeddings  
-- Similarity measurement using cosine similarity  
-- Clustering for grouping related items  
-
-## System Architecture
 1. Data ingestion from operational ticket systems  
 2. Text preprocessing (tokenization, lemmatization, stopword removal)  
 3. Feature extraction (TF-IDF vectors and word embeddings)  
 4. Similarity analysis using cosine similarity  
-5. Cluster formation and searchable grouping interface  
+5. Clustering for grouping relatied items  
 
 ## Technologies
 Python  
