@@ -10,13 +10,13 @@ The objective was to determine whether Natural Language Processing (NLP) feature
 ## Methods
 - Collection of financial tweet data and stock price data from public datasets  
 - Text preprocessing including tokenization, stopword removal, and stemming  
-- Sentiment analysis using **TextBlob** to extract polarity scores from tweets  
-- Feature engineering using **TF-IDF vectorization**, **word embeddings**, and **cosine similarity**  
+- Sentiment analysis using TextBlob to extract polarity scores from tweets  
+- Feature engineering using TF-IDF vectorization, word embeddings, and cosine similarity  
 - Machine learning classification using:
   - Logistic Regression
   - Random Forest
   - Stochastic Gradient Descent  
-- Model evaluation using **accuracy**, **F1-score**, and **cross-validation**
+- Model evaluation using accuracy, F1-score, and cross-validation
 
 ## Technologies
 - Python  
@@ -27,11 +27,10 @@ The objective was to determine whether Natural Language Processing (NLP) feature
 - Scikit-learn   
 
 ## Results
-- Incorporating tweet sentiment features improved stock trend prediction accuracy by **1–4%** compared to baseline models  
-- **Random Forest** and **Logistic Regression** outperformed stochastic gradient descent models  
-- Sentiment classification using **Support Vector Machines (SVM)** achieved **~94% accuracy**, outperforming **Naïve Bayes (~82%)**  
-- Text classification experiments achieved **~97% accuracy** detecting stock-specific tweet content  
-- Results demonstrate that **social sentiment signals can contribute useful information for financial market analysis**
+- Incorporating tweet sentiment features improved stock trend prediction accuracy by 1–4% compared to baseline models  
+- Random Forest and Logistic Regression outperformed stochastic gradient descent models  
+- Sentiment classification using Support Vector Machines (SVM) achieved ~94% accuracy, outperforming Naïve Bayes (~82%)  
+- Results demonstrate that social sentiment signals can contribute useful information for financial market analysis
 
 ---
 ## Visuals
