@@ -1,39 +1,49 @@
-# Data Analysis for Assessment of Stock Volatility: Financial News Text Mining  
-**CS 503: Data Mining Course Project (January 2024 – April 2024)**
+# Financial Textual Data Mining for Stock Market Trend Prediction
+
+**CSC 503: Data Mining Course Project (January 2024 – April 2024)**
+
+---
 
 ## Overview
-This project analyzes financial news text data alongside stock price volatility metrics to uncover correlations between news sentiment and market fluctuations. The goal is to derive actionable insights from textual and quantitative data to better understand market behavior.
+This project analyzes financial Twitter data alongside stock market data to investigate whether social sentiment can improve stock trend prediction. Tweets related to the top 25 most watched stocks were text mined and combined with financial data to explore correlations between sentiment and stock price movement.
+
+The objective was to determine whether Natural Language Processing (NLP) features derived from social media text can enhance machine learning classification models to predict market trends.
+
+---
 
 ## Methods
-- Data extraction and cleaning from relational databases using SQL  
-- Text preprocessing and sentiment analysis on financial news  
-- Statistical correlation analysis between news sentiment and stock volatility  
-- Visualization of volatility patterns through interactive dashboards in Jupyter Notebooks  
-
-## System Architecture
-1. Data collection from financial news sources and stock price databases  
-2. Data preprocessing and cleaning with SQL and Python  
-3. Text mining and sentiment analysis  
-4. Correlation and statistical analysis with stock volatility metrics  
-5. Interactive visualization and reporting  
+- Collection of financial tweet data and stock price data from public datasets  
+- Text preprocessing including tokenization, stopword removal, and stemming  
+- Sentiment analysis using **TextBlob** to extract polarity scores from tweets  
+- Feature engineering using **TF-IDF vectorization**, **word embeddings**, and **cosine similarity**  
+- Machine learning classification using:
+  - Logistic Regression
+  - Random Forest
+  - Stochastic Gradient Descent  
+- Model evaluation using **accuracy**, **F1-score**, and **cross-validation**
+---
 
 ## Technologies
-SQL  
-Python  
-Text Mining  
-Data Visualization  
-Statistical Analysis  
+- Python  
+- Natural Language Processing (NLP)  
+- NLTK  
+- TextBlob  
+- TF-IDF Vectorization  
+- Word Embeddings (GloVe)  
+- Scikit-learn  
+- Data Mining  
+- Machine Learning  
+
+---
 
 ## Results
-- Identified relationships between news sentiment and market volatility  
-- Produced interactive visualizations supporting exploratory analysis  
-- Enhanced understanding of market fluctuations using combined text and numerical data  
+- Incorporating tweet sentiment features improved stock trend prediction accuracy by **1–4%** compared to baseline models  
+- **Random Forest** and **Logistic Regression** outperformed stochastic gradient descent models  
+- Sentiment classification using **Support Vector Machines (SVM)** achieved **~94% accuracy**, outperforming **Naïve Bayes (~82%)**  
+- Text classification experiments achieved **~97% accuracy** detecting stock-specific tweet content  
+- Results demonstrate that **social sentiment signals can contribute useful information for financial market analysis**
 
-## Future Work
-- Integrate real-time news streams for live sentiment tracking  
-- Apply machine learning models to predict volatility based on news sentiment  
-- Expand analysis to multi-market or multi-lingual financial datasets  
-
+---
 ## Visuals
 ![Volatility Analysis Dashboard](images/volatility_dashboard.png)  
 ![Sentiment vs Volatility Plot](images/sentiment_volatility_plot.png)
