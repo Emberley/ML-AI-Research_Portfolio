@@ -11,15 +11,6 @@ This project develops a natural language processing (NLP) pipeline to cluster an
 4. Similarity analysis using cosine similarity  
 5. Clustering for grouping relatied tickets 
 
-## Technologies
-Python  
-SpaCy  
-NLTK  
-TF-IDF  
-Word Embeddings  
-Clustering  
-Similarity Metrics  
-
 ## Results
 - Improved grouping of related operational tickets  
 - Enabled similarity-based search and retrieval for faster workflow resolution  
