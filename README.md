@@ -16,7 +16,7 @@ Welcome to my **ML & AI Research Portfolio**, this repository is organized to pr
 - **Reinforcement Learning Projects:** Policy gradient and DQN experiments with CNN feature extraction and RayBNN integration.
 - **Policy Distillation:** Research on RL teacher policy trained on Atari dataset and distiled into the RayBNN 
 - **LLM Knowledge Distillation:** Research on transferring reasoning capabilities from large language models into RayBNN 
-- **Coursework Projects:** Includes NLP nnalysis, stock volatility analysis, network analysis, PCA for drug design, and battery storage optimization with RL.
+- **Coursework Projects:** Includes NLP analysis, stock volatility analysis, network analysis, PCA for drug design, and battery storage optimization with RL.
 
 ---
 
@@ -29,8 +29,8 @@ Welcome to my **ML & AI Research Portfolio**, this repository is organized to pr
 
 ## Contact & Links
 
-- GitHub Portfolio: [ML-AI-Research_Portfolio](https://github.com/Emberley/ML-AI-Research_Portfolio)  
-- RayBNN Paper: [Nature Communications Summary](https://www.nature.com/articles/s41467-024-48747-7)  
+- GitHub Portfolio: [ML-AI-Research_Portfolio](https://github.com/Emberley)  
+- RayBNN Paper: [Nature Communications](https://www.nature.com/articles/s41467-024-48747-7)  
 - RayBNN GitHub: [RayBNN Repo](https://github.com/brosnanyuen)  
 
 ---
