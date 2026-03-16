@@ -1,6 +1,6 @@
 # Research Portfolio: 
 
-This portfolio highlights my ongoing research in distillation, particularly focusing on RayBNN, a 3D ray-traced biological neural network architecture that utilizes transfer learning. My work extends this architecture by exploring reinforcement learning adaptability through policy distillation and reasoning capabilities through knowledge distillation from LLMs.
+This portfolio highlights my research applying distillation to a novel 3D neural network, RayBNN that utilizes transfer learning. My work extends this architecture by exploring reinforcement learning adaptability through policy distillation and reasoning capabilities through knowledge distillation from LLMs.
 
 ---
 
@@ -27,7 +27,7 @@ I am currently extending RayBNN by integrating rl policy distillation** and LLM 
 ### Reinforcement Learning Policy Distillation into RayBNN
 - Train Teacher Polciy with RL algortihm wwith PPO and Actor/Critic Arichtetcure on Atari Game Pong
 - Use CNN for feature enginnering enhancment to downsample the images pixels
-- Distilled trained polciy to the RayBNN
+- Distilled trained policy to the RayBNN
 - Modify the archtiretucre for thes trained RayBNN to interact with game Pong
 - Test performance againest Teacher perfomance and convergance rates
 
@@ -37,8 +37,6 @@ I am currently extending RayBNN by integrating rl policy distillation** and LLM 
 
 ## Visuals
 ![RayBNN 3D Architecture](images/raybnn_3d_architecture.png)  
-![Ray-Traced Connectivity Example](images/raybnn_ray_tracing.png)  
-![RL Reward Curve](images/raybnn_rl_rewards.png)  
-![LLM Knowledge Distillation Visualization](images/raybnn_llm_kd.png)
+
 
 ---
