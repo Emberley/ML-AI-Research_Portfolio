@@ -1,41 +1,25 @@
-# LLM Knowledge Distillation & Explainability Research  
-**Independent AI Research Project (Ongoing 2025 – 2026)**
+# RayBNN Knowledge Distillation 
 
 ## Overview
-This research investigates large language model (LLM) behavior using knowledge distillation and interpretability techniques. The focus is on understanding why certain words (e.g., "leverage") are consistently chosen and visualizing model decision processes. The project aims to enhance explainability and reduce black-box behavior in LLMs.
+This research project explores knowledge distillation from a large language model (LLM) into RayBNN for multiple-choice reasoning on the **AI2 ARC Challenge** dataset. The goal is to transfer reasoning behavior from a teacher model into a smaller student model which will be the RayBNN. Hoping the RayBNN then learns to predict the answer distribution over choices A, B, C, and D.
+
+## Research Objective
+- Distill reasoning behavior from an LLM into RayBNN
+- Evaluate RayBNN’s ability to approximate the reasoning distribution of the teacher
+- Investigate whether non-transformer neural architectures can learn reasoning behaviors through distillation
 
 ## Methods
-- Knowledge distillation to train smaller, interpretable models from a pre-trained LLM  
-- Analysis of token selection patterns and probability distributions  
-- Visualization of attention weights and gradient-based importance scores  
-- Modular Python code design for reproducible interpretability experiments  
-- Application of explainability metrics and fairness checks  
+1. Load questions from the AI2 ARC Challenge dataset
+2. Pass embeddings to a teacher LLM to obtain probability distributions over answers
+3. Store teacher predictions as soft labels
+4. Train RayBNN using the labeled dataset
+5. Evaluate prediction accuracy on ARC multiple-choice reasoning tasks
+6. Optimize parameters
 
-## System Architecture
-1. LLM input tokenization and embedding extraction  
-2. Knowledge distillation into a smaller, interpretable model  
-3. Explainability analysis (attention maps, gradients, feature importance)  
-4. Visualization and plotting of model decision patterns  
-5. Evaluation of interpretability and bias metrics  
+## Dataset
+- **AI2 ARC Challenge Dataset**
+- Science reasoning multiple-choice questions
+- Four answer choices per question
 
-## Technologies
-Python  
-PyTorch  
-Transformers  
-Matplotlib / Seaborn  
-Explainable AI (XAI) Techniques  
-Knowledge Distillation  
-
-## Results
-- Identified consistent token selection patterns (e.g., frequent choice of "leverage")  
-- Generated visualizations showing attention distribution and token influence  
-- Developed a modular Python pipeline for reproducible analysis of LLM decision-making  
-
-## Future Work
-- Extend to larger LLM architectures and cross-domain datasets  
-- Integrate SHAP or LIME-based explanations for more detailed interpretability  
-- Develop an interactive dashboard to visualize word selection patterns and biases  
-
-## Visuals
-![Attention Heatmap](images/attention_heatmap.png)  
-![Token Probability Plot](images/token_probability_plot.png)  
+## Expected Outcome
+The project investigates whether RayBNN can learn reasoning behavior through distillation from a large language model, enabling smaller biologically inspired architectures to approximate the reasoning patterns of large transformer models.
