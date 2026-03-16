@@ -13,7 +13,7 @@ Welcome to my **ML & AI Research Portfolio**, this repository is organized to pr
 ## Highlights
 
 - **RayBNN (3D Ray-Traced Biological Neural Network):** Enhancement of RayBNN architecture to test adaptility and reasoning capability
-- **Reinforcement Learning Projects:** Policy gradient and DQN experiments with CNN feature extraction and RayBNN integration.
+- **Reinforcement Learning:** Policy gradient and DQN experiments with CNN feature extraction and RayBNN integration on the Atari game pong.
 - **Policy Distillation:** Research on RL teacher policy trained on Atari dataset and distiled into the RayBNN 
 - **LLM Knowledge Distillation:** Research on transferring reasoning capabilities from large language models into RayBNN 
 - **Coursework Projects:** Includes NLP analysis, stock volatility analysis, network analysis, PCA for drug design, and battery storage optimization with RL.
