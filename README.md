@@ -5,8 +5,6 @@ Welcome to my **ML & AI Research Portfolio**, showing my coursework projects and
 ---
 
 ### Folder Details
-
-- **assets/images:** All screenshots, figures, and visual aids used across coursework and research projects.
 - **coursework-projects:** Contains structured READMEs for each course project, including methods, system architecture, technologies used, results, and future work.
 - **research-projects:** Detailed research project folders for RayBNN, reinforcement learning experiments, LLM knowledge distillation, and other ongoing AI research.
 
@@ -25,7 +23,7 @@ Welcome to my **ML & AI Research Portfolio**, showing my coursework projects and
 ## Usage
 
 - Navigate to individual project folders (`coursework-projects` or `research-projects`) for detailed READMEs, code, and visuals.
-- `assets/images` contains all figures referenced in project READMEs and the website.
+- `.../images` contains all figures referenced in project READMEs and the website.
 
 ---
 
