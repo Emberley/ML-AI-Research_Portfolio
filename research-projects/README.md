@@ -5,7 +5,7 @@ This portfolio highlights my research applying distillation to a novel 3D neural
 ---
 
 ## Overview of RayBNN
- Unlike traditional layered neural networks, RayBNN distributes neurons and glial cells within a 3D spherical volume and establishes dynamic, sparse connectivity through ray-tracing algorithms. This architecture allows for flexible transfer learning, efficient computation, and adaptive learning behaviors.
+Unlike traditional layered neural networks, RayBNN distributes neurons and glial cells within a 3D spherical volume and establishes dynamic, sparse connectivity through ray-tracing algorithms. This architecture allows for flexible transfer learning, efficient computation, and adaptive learning behaviors.
 
 **Key Features:**
 - **3D Sphere Framework:** Neurons exist in a 3D space that can adapt dynamically.  
@@ -18,6 +18,8 @@ This portfolio highlights my research applying distillation to a novel 3D neural
 - **Ray-Tracing Algorithms:** Random ray generation (RT1), direct connections within the sphere (RT2), and distance-limited connections (RT3). 
 - **Neural Architecture:** Sparse matrix representations (CSR) with a Universal Activation Function (UAF).
 - **Biological Basis:** Models glial cell behavior to reduce power consumption.
+
+**RayBNN Paper:** [Nature Communications](https://www.nature.com/articles/s41467-024-48747-7)  
 ---
 
 ## Research Work
