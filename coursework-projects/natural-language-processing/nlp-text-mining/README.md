@@ -35,5 +35,5 @@ The objective was to determine whether Natural Language Processing (NLP) feature
 
 ---
 ## Visuals
-![Volatility Analysis Dashboard](images/volatility_dashboard.png)  
-![Sentiment vs Volatility Plot](images/sentiment_volatility_plot.png)
+![Sentiment Analysis](images/sentiment.png)  
+![Performance](images/performance.png)
