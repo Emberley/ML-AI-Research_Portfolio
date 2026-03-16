@@ -2,9 +2,9 @@
 **ECE 503: Optimization in Machine Learning (September 2023 - December 2023)**
 
 ## Overview
-This project investigates the use of **softmax multi-classification** to classify potential small molecule inhibitors targeting the **Sirtuin6 (SIRT6)** protein. The goal is to compare this model combined with optimization methods to enhance performance in identify potential drug candidates. The optimized algorithms used were CGD, BFGS, and  NAG and feature reduction was done as the other optimization technique.In addition to evaluating optimization performance, **feature reduction techniques** were applied using covariance analysis and eigenvalue decomposition.
+This project investigates the use of softmax multi-classification to classify potential small molecule inhibitors targeting the Sirtuin6 (SIRT6)** protein. The goal is to compare this model combined with optimization methods to enhance performance in identifying potential drug candidates. The optimized algorithms used were CGD, BFGS, and  NAG. In addition, feature reduction was applied using covariance analysis and eigenvalue decomposition.
 
-The dataset was obtained from the **UCI Machine Learning Repository** and processed in MATLAB. Samples were labeled based on binding free energy (BFE), where high BFE values were labeled as potential inhibitors and low BFE values as non-inhibitors. The dataset was randomly shuffled to remove ordering bias and divided into training and testing datasets.
+The dataset was obtained from the UCI Machine Learning Repository and processed in MATLAB. Samples were labeled based on binding free energy (BFE), where high BFE values were labeled as potential inhibitors and low BFE values as non-inhibitors. The dataset was randomly shuffled to remove ordering bias and divided into training and testing datasets.
 
 ## Methods
 1. Data collection from UCI Machine Learning Repository
