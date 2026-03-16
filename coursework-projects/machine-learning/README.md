@@ -4,7 +4,7 @@
 ## Overview
 This project investigates the use of **softmax multi-classification** to classify potential small molecule inhibitors targeting the **Sirtuin6 (SIRT6)** protein. The goal is to compare this model combined with optimization methods to enhance performance in identify potential drug candidates. The optimized algorithms used were CGD, BFGS, and  NAG and feature reduction was done as the other optimization technique.In addition to evaluating optimization performance, **feature reduction techniques** were applied using covariance analysis and eigenvalue decomposition.
 
-The dataset was obtained from the **UCI Machine Learning Repository** and processed in MATLAB. Samples were labeled based on binding free energy (BFE), where high BFE values were labeled as potential inhibitors and low BFE values as non-inhibitors. The dataset was randomly shuffled to remove ordering bias and divided into **training and testing datasets**
+The dataset was obtained from the **UCI Machine Learning Repository** and processed in MATLAB. Samples were labeled based on binding free energy (BFE), where high BFE values were labeled as potential inhibitors and low BFE values as non-inhibitors. The dataset was randomly shuffled to remove ordering bias and divided into training and testing datasets.
 
 ## Methods
 1. Data collection from UCI Machine Learning Repository
@@ -25,19 +25,13 @@ Feature Reduction
 Statistical Data Normalization  
 
 ## Results
-- Successful classification of potential **SIRT6 inhibitor candidates**
-- Comparative analysis of multiple optimization algorithms
+- Successful classification of potential SIRT6 inhibitor candidates
 - Identification of optimal regularization parameter (μ = 0.003)
 - Feature reduction significantly improved computational efficiency
-- Achieved approximately **20× faster training time with comparable accuracy**
+- Achieved approximately 20× faster training time with comparable accuracy
 
-## Future Work
-- Apply **Principal Component Analysis (PCA)** for automated dimensionality reduction
-- Explore deep learning models for molecular feature representation
-- Expand the dataset with larger biochemical screening datasets
-- Investigate nonlinear dimensionality reduction techniques
 
 ## Visuals
-![Optimizer Convergence](images/optimizer_convergence.png)  
-![Confusion Matrix](images/confusion_matrix.png)  
-![Feature Reduction Comparison](images/feature_reduction_comparison.png)
+![Optimizer Convergence](images/Convergence.png)  
+![Training Performance](images/training.png)  
+
