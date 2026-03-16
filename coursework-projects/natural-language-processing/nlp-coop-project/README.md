@@ -14,7 +14,7 @@ This project develops a natural language processing (NLP) pipeline to cluster an
 ## Results
 - Successfully processed and grouped over 1 million service desk tickets into clusters representing common technical issues.
 - Enabled identification of recurring outages and operational problems affecting multiple ministries.
-- Improved visibility into high-frequency incidents and systemic issues across the organization.
+- Improved understanding of high-frequency technical incidents and systemic issues across the organization.
 - Provided a structured dataset that supports faster analysis and decision-making for IT operations.
 
 
