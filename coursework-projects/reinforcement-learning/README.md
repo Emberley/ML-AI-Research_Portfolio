@@ -1,36 +1,74 @@
-# Reinforcement Learning for Battery Storage Optimization (ECE 569A)
+# Reinforcement Learning for Battery Management System Scheduling
+**ECE 559B: Reinforcement Learning Course Project (January 2025 – April 2025)**
+
 
 ## Overview
-This project develops a Q-learning reinforcement learning agent to optimize a 24-hour battery storage policy in a simulated energy environment with stochastic demand and renewable supply. The goal is to minimize energy costs while satisfying demand and maximizing storage efficiency.
+This project applies Reinforcement Learning to optimize the scheduling policy of a residential Battery Management System (BMS) within a microgrid environment. The goal is to determine when a battery should charge, discharge, or remain idle based on consumer electricity demand, renewable energy availability, and the battery's state of charge (SOC).
+
+A Q-learning algorithm was implemented to learn an optimal 24-hour scheduling policy. The agent interacts with a simulated environment representing consumer demand and renewable energy production. By learning through temporal difference updates, the agent discovers strategies that charge the battery during periods of renewable energy availability and discharge during peak consumer demand.
+
+This work demonstrates how reinforcement learning can support intelligent energy management in smart grid systems. :contentReference[oaicite:0]{index=0}
 
 ## Methods
-- Simulated environment modeling stochastic energy demand and renewable supply
-- Q-learning algorithm for agent-based policy learning
-- Reward function design balancing energy cost, demand satisfaction, and storage efficiency
-- Evaluation of convergence behavior and policy stability across multiple training episodes
+Formulation of the battery scheduling problem as a **Markov Decision Process (MDP)**  
+Definition of state space including:
+- Consumer power demand
+- Renewable power generation
+- Battery state of charge (SOC)
+
+Definition of action space:
+- Charge battery
+- Discharge battery
+- Idle
+
+Implementation of **Q-learning reinforcement learning algorithm** with:
+
+- Temporal difference learning updates
+- ε-greedy exploration policy
+- Learning rate (α) tuning
+- Exploration parameter (ε) tuning
+
+Simulation of a **24-hour environment** with stochastic consumer demand and renewable energy availability.
+
+Evaluation performed by analyzing:
+
+- Q-value convergence across episodes
+- Learning behavior under different hyperparameters
+- Derived optimal battery scheduling policy.
 
 ## System Architecture
-1. Environment simulation (energy demand + renewable supply)
-2. State representation and action space definition
-3. Q-learning agent implementation
-4. Reward calculation
-5. Policy evaluation and iteration
+1. Define Battery Management System scheduling problem  
+2. Formulate environment as a Markov Decision Process  
+3. Simulate renewable energy availability and consumer demand  
+4. Initialize Q-table for state-action values  
+5. Train reinforcement learning agent using Q-learning  
+6. Apply ε-greedy policy for exploration vs exploitation  
+7. Update Q-values through temporal difference learning  
+8. Evaluate learned scheduling policy over multiple episodes  
 
 ## Technologies
-Python  
-Reinforcement Learning  
-Q-Learning  
-Simulation Modeling  
+- Python   
+- Q-Learning  
+- Markov Decision Processes (MDP)  
+- NumPy  
+- Jupyter Notebook  
+- Data Visualization  
 
 ## Results
-- Agent successfully learned an optimal 24-hour battery policy
-- Demonstrated convergence of Q-values and stable policy performance
-- Achieved a balance between energy cost savings, demand satisfaction, and storage utilization
+The Q-learning agent successfully learned an optimal battery scheduling strategy over multiple training episodes.
 
-## Future Work
-- Implement Deep Q-Network (DQN) for larger, more complex environments
-- Integrate with real-world energy data for testing and validation
-- Explore multi-agent reinforcement learning for distributed energy management
+Key findings include:
+
+- Optimal hyperparameters were identified as **learning rate α = 0.05** and **exploration rate ε = 0.05**
+- The agent learned to **charge the battery during periods of renewable energy availability**
+- The agent **discharged energy during peak consumer demand periods**
+- The learned policy maintained a **healthy battery state of charge above 50%**, preventing over-discharge
+- After approximately **10,000 episodes**, the algorithm converged to a stable optimal policy
+
+The results demonstrate that even a tabular Q-learning approach can effectively learn energy scheduling strategies for battery storage systems in microgrid environments. :contentReference[oaicite:1]{index=1}
+
+
+---
 
 ## Visuals
 ![Battery Storage Policy](images/battery_policy_plot.png)  
