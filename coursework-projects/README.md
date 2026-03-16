@@ -5,7 +5,6 @@ This repository showcases my course projects, focusing on machine learning, NLP,
 ---
 ## Machine Learning – Feature Reduction to Enhance Drug Design of Sirtuin6  
 **ECE 503: Machine Learning Optimization Course Project (September 2023 - December 2023)**  
-Performed Principal Component Analysis (PCA) to reduce high-dimensional molecular features while maintaining predictive performance. Evaluated model robustness before and after feature reduction and applied statistical validation methods to support drug discovery optimization workflows.
 
 **Technologies:** Python, PCA, Dimensionality Reduction, Statistical Modeling
 
