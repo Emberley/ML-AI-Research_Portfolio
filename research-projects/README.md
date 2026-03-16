@@ -1,6 +1,6 @@
 # Research Portfolio: 
 
-This portfolio highlights my ongoing research in distillation, particularly focusing on **RayBNN**, a 3D ray-traced biological neural network architecture that utilizes transfer learning to reduce computational extensiveness. My work extends this architecture by exploring reinforcement learning adaptability through policy distillation and reasoning capabilities through knowledge distillation from LLMs.
+This portfolio highlights my ongoing research in distillation, particularly focusing on **RayBNN**, a 3D ray-traced biological neural network architecture that utilizes transfer learning. My work extends this architecture by exploring reinforcement learning adaptability through policy distillation and reasoning capabilities through knowledge distillation from LLMs.
 
 ---
 
@@ -25,16 +25,18 @@ This portfolio highlights my ongoing research in distillation, particularly focu
 ---
 
 ## Research Work
-I am currently extending RayBNN by integrating **reinforcement learning (RL)** and **LLM knowledge distillation** to explore reasoning, decision-making, and adaptability.
+I am currently extending RayBNN by integrating **reinforcement learning (RL) policy distillation** and **LLM knowledge distillation** to explore reasoning, decision-making, and adaptability.
 
-### 1. Reinforcement Learning Policy Distillation into RayBNN
-- Applying policy gradient RL algorithms to train RayBNN agents in simulated environments (e.g., Atari games).  
-- Forward pass through RayBNN for state evaluation; backward pass for policy updates.  
-- Exploring DQN as an alternative, though early results favor policy gradient approaches.  
+### Reinforcement Learning Policy Distillation into RayBNN
+- Train Teacher Polciy with RL algortihm wwith PPO and Actor/Critic Arichtetcure on Atari Game Pong
+- Use CNN for feature enginnering enhancment to downsample the images pixels
+- Distilled trained polciy to the RayBNN
+- Modify the archtiretucre for thes trained RayBNN to interact with game Pong
+- Test performance againest Teacher perfomance and convergance rates
 
 **Technologies:** Python, Rust (`raybnn` + `arrayfire`), Gymnasium, CNN feature extraction, Policy Gradient RL  
 
-### 2. LLM Knowledge Distillation into RayBNN
+### LLM Knowledge Distillation into RayBNN
 - Distilling knowledge from LLMs into RayBNN to improve reasoning and token prediction tasks.  
 - Modular pipelines for attention analysis, token probability mapping, and performance evaluation.  
 - Extends RayBNN’s reasoning capabilities while maintaining computational efficiency.  
