@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project explores policy distillation and behavior cloning using reinforcement learning. A teacher agent is trained on an Atari environment using **Proximal Policy Optimization (PPO)**. The trained teacher generates **state–action pairs** that are used to train a student neural network, RayBNN through supervised learning.The goal is to evaulated how well the **RayBNN**, a biologically inspired neural architecture,  learns the teacher’s policy.
+This project explores policy distillation and behavior cloning using reinforcement learning. A teacher agent is trained on an Atari environment using **Proximal Policy Optimization (PPO)**. The trained teacher generates state–action pairs that are used to train a student neural network, RayBNN through supervised learning.The goal is to evaulated how well the RayBNN learns the teacher’s policy.
 
-## System Architecture
+## Methods
 1. Train a PPO reinforcement learning agent on an Atari environment-Pong
 2. Convert into supervised learning data set with labels as action probabilities
 3. Train RayBNN to imitate the teacher policy
