@@ -1,28 +1,20 @@
 # Coursework Projects
 
-This folder contains implementations and write-ups from academic coursework.
-
-## Structure
-
-Each sub-folder represents a course or coop:
-
-```
-coursework-projects/
-└── <course-name>/
-    ├── code/
-    ├── notebooks/
-    └── README.md
-```
-
-# Victoria Emberley - Course Projects Portfolio
-
-This repository showcases my course projects, focusing on machine learning, NLP, data analysis, and reinforcement learning. Each project includes a brief description and the technologies used.
+This repository showcases my course projects, focusing on machine learning, NLP, data analysis, and reinforcement learning. Each project includes a brief description and the technologies used. Projects are placed in an AI topic folder.
 
 ---
+** Machine Learning **
+## Machine Learning – Feature Reduction to Enhance Drug Design of Sirtuin6  
+**ECE 503: Machine Learning Optimization Course Project (September 2023 - December 2023)**  
+Performed Principal Component Analysis (PCA) to reduce high-dimensional molecular features while maintaining predictive performance. Evaluated model robustness before and after feature reduction and applied statistical validation methods to support drug discovery optimization workflows.
 
-## 1. NLP Processing & Clustering to Enhance Business Operations  
+**Technologies:** Python, PCA, Dimensionality Reduction, Statistical Modeling
+
+---
+** Natural Language Processing Folder **
+##  NLP Processing & Clustering to Enhance Business Operations  
 **Data Service Co-op Project (May 2024 - December 2024)**  
-Built an NLP preprocessing pipeline using SpaCy and NLTK. Applied clustering techniques (TF-IDF, word embeddings, cosine similarity) to group similar items. Developed a searchable interface for similarity-based retrieval. Followed AI best practices, including metric evaluation, bias awareness, and secure data handling.
+Built an NLP preprocessing pipeline using SpaCy and NLTK. Applied clustering techniques (TF-IDF, word embeddings, cosine similarity) to group similar items. Followed AI best practices, including metric evaluation, bias awareness, and secure data handling.
 
 **Technologies:** Python, SpaCy, NLTK, TF-IDF, Word Embeddings, Clustering, Similarity Metrics
 
@@ -44,11 +36,7 @@ Trained word embedding models to analyze semantic relationships within large Sta
 
 ---
 
-## 4. Machine Learning – Feature Reduction to Enhance Drug Design of Sirtuin6  
-**ECE 503: Machine Learning Optimization Course Project (September 2023 - December 2023)**  
-Performed Principal Component Analysis (PCA) to reduce high-dimensional molecular features while maintaining predictive performance. Evaluated model robustness before and after feature reduction and applied statistical validation methods to support drug discovery optimization workflows.
-
-**Technologies:** Python, PCA, Dimensionality Reduction, Statistical Modeling
+## 4. 
 
 ---
 
