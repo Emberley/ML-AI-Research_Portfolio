@@ -58,5 +58,5 @@ The results demonstrate that even a tabular Q-learning approach can effectively 
 
 ## Visuals
 ![Q Values](image/episodes.png)  
-![Training Convergence](image/q_values_15png)
+![Training Convergence](image/q_values_15.png)
 ![SOC Optimal Policy](image/optimal_policy.png)
