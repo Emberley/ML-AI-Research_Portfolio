@@ -36,7 +36,7 @@ I am currently extending RayBNN by integrating rl policy distillation** and LLM 
 ---
 
 ## Visuals
-![RayBNN 3D Architecture](images/raybnn_3d_architecture.png)  
+![RayBNN 3D Architecture](images/raybnn_3d.png)  
 
 
 ---
