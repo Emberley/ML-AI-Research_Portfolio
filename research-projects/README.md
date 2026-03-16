@@ -23,7 +23,7 @@ Unlike traditional layered neural networks, RayBNN distributes neurons and glial
 ---
 
 ## Research Work
-I am currently extending RayBNN by integrating rl policy distillation and LLM knowledge distillation to explore reasoning and adaptability.
+I am currently extending RayBNN by integrating RL policy distillation and LLM knowledge distillation to explore reasoning and adaptability.
 
 ### Reinforcement Learning Policy Distillation into RayBNN
 - Train Teacher Polciy with RL algortihm with PPO and Actor/Critic on Atari Game Pong
