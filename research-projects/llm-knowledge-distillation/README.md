@@ -1,7 +1,7 @@
 # RayBNN Knowledge Distillation 
 
 ## Overview
-This research project explores knowledge distillation from a large language model (LLM) into RayBNN for multiple-choice reasoning on the **AI2 ARC Challenge** dataset. The goal is to transfer reasoning behavior from a teacher model into a smaller student model which will be the RayBNN. Hoping the RayBNN then learns to predict the answer distribution over choices A, B, C, and D.
+This research project explores knowledge distillation from a large language model (LLM) into RayBNN for multiple-choice reasoning on the AI2 ARC Challenge dataset. The goal is to transfer reasoning behavior from a teacher model into a smaller student model which will be the RayBNN. Hoping the RayBNN then learns to predict the answer distribution over choices A, B, C, and D.
 
 ## Research Objective
 - Distill reasoning behavior from an LLM into RayBNN
@@ -17,7 +17,7 @@ This research project explores knowledge distillation from a large language mode
 6. Optimize parameters
 
 ## Dataset
-- **AI2 ARC Challenge Dataset**
+- AI2 ARC Challenge Dataset
 - Science reasoning multiple-choice questions
 - Four answer choices per question
 
