@@ -12,12 +12,9 @@ This project develops a natural language processing (NLP) pipeline to cluster an
 5. Clustering for grouping relatied tickets 
 
 ## Results
-- Improved grouping of related operational tickets  
-- Enabled similarity-based search and retrieval for faster workflow resolution  
-- Provided actionable insights into operational trends  
+- Successfully processed and grouped over 1 million service desk tickets into clusters representing common technical issues.
+- Enabled identification of recurring outages and operational problems affecting multiple ministries.
+- Improved visibility into high-frequency incidents and systemic issues across the organization.
+- Provided a structured dataset that supports faster analysis and decision-making for IT operations.
 
-## Future Work
-- Integrate transformer-based embeddings for improved semantic understanding  
-- Deploy as a searchable API for business use  
-- Expand clustering to handle multi-lingual or cross-department tickets  
 
