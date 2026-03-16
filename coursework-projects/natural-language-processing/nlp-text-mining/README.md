@@ -18,13 +18,6 @@ The objective was to determine whether Natural Language Processing (NLP) feature
   - Stochastic Gradient Descent  
 - Model evaluation using accuracy, F1-score, and cross-validation
 
-## Technologies
-- Python  
-- NLTK  
-- TextBlob  
-- TF-IDF Vectorization  
-- Word Embeddings (GloVe)  
-- Scikit-learn   
 
 ## Results
 - Incorporating tweet sentiment features improved stock trend prediction accuracy by 1–4% compared to baseline models  
