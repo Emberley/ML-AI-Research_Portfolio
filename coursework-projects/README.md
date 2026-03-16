@@ -24,7 +24,6 @@ coursework-projects
 ---
 
 ## Project Areas
-## Project Areas
 
 ### Machine Learning
 Supervised learning, dimensionality reduction, and model evaluation.
