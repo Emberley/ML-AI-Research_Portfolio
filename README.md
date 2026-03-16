@@ -32,7 +32,7 @@ Welcome to my **ML & AI Research Portfolio**, showcasing my coursework projects 
 
 - GitHub Portfolio: [ML-AI-Research_Portfolio](https://github.com/your-username/ML-AI-Research_Portfolio)  
 - RayBNN Paper: [Nature Communications Summary](link-to-paper-summary)  
-- RayBNN GitHub Implementation: [RayBNN Repo](link-to-github-repo)  
+- RayBNN GitHub: [RayBNN Repo](link-to-github-repo)  
 
 ---
 
