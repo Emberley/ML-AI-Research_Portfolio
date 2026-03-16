@@ -50,5 +50,5 @@ These results demonstrate that graph-based data models are more efficient for an
 ---
 
 ## Visuals
-![Semantic Network Graph](images/stackexchange_network.png)  
-![Cluster Analysis Visualization](images/stackexchange_clusters.png)
+![Relational Database](images/relational_db.png)  
+![Graph Database](images/graph_db.png)
