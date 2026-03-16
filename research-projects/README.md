@@ -1,11 +1,11 @@
-# Research Portfolio: RayBNN & Biomimetic AI Models
+# Research Portfolio: 
 
-This portfolio highlights my ongoing research in **biomimetic neural networks**, particularly focusing on **RayBNN**, a 3D ray-traced biological neural network architecture that mimics brain plasticity and supports transfer learning. My work extends this architecture by exploring reinforcement learning adaptability and reasoning capabilities through knowledge distillation from LLMs.
+This portfolio highlights my ongoing research in distillation, particularly focusing on **RayBNN**, a 3D ray-traced biological neural network architecture that utilizes transfer learning to reduce computational extensiveness. My work extends this architecture by exploring reinforcement learning adaptability through policy distillation and reasoning capabilities through knowledge distillation from LLMs.
 
 ---
 
 ## Overview of RayBNN
-RayBNN is a biomimetic AI model inspired by the structure and plasticity of the human brain. Unlike traditional layered neural networks, RayBNN distributes neurons and glial cells within a **3D spherical volume** and establishes **dynamic, sparse connectivity** through ray-tracing algorithms. This architecture allows for flexible transfer learning, efficient computation, and adaptive learning behaviors.
+ Unlike traditional layered neural networks, RayBNN distributes neurons and glial cells within a **3D spherical volume** and establishes **dynamic, sparse connectivity** through ray-tracing algorithms. This architecture allows for flexible transfer learning, efficient computation, and adaptive learning behaviors.
 
 **Key Features:**
 - **3D Sphere Framework:** Neurons exist in a 3D space that can expand, shrink, or adapt dynamically.  
@@ -24,7 +24,7 @@ RayBNN is a biomimetic AI model inspired by the structure and plasticity of the 
 
 ---
 
-## Research Extensions
+## Research Work
 I am currently extending RayBNN by integrating **reinforcement learning (RL)** and **LLM knowledge distillation** to explore reasoning, decision-making, and adaptability.
 
 ### 1. Reinforcement Learning with RayBNN
@@ -50,18 +50,3 @@ I am currently extending RayBNN by integrating **reinforcement learning (RL)** a
 ![LLM Knowledge Distillation Visualization](images/raybnn_llm_kd.png)
 
 ---
-
-## Future Work
-- Scale RayBNN for larger datasets and more complex RL tasks  
-- Integrate multi-modal input (e.g., visual + textual data) for reasoning  
-- Explore hybrid architectures combining RayBNN, Transformers, and other biomimetic approaches  
-- Deploy RayBNN as an efficient, interpretable AI module for real-world applications  
-
----
-
-## Technologies
-- **Python** – data processing, modeling, plotting  
-- **Rust (`raybnn` + `arrayfire`)** – high-performance neural network implementation  
-- **Reinforcement Learning** – Policy Gradient, DQN  
-- **LLM & Knowledge Distillation** – Transformers, attention analysis  
-- **Visualization** – Matplotlib, Seaborn, 3D architecture plots  
