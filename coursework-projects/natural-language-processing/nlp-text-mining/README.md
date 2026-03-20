@@ -8,15 +8,15 @@ This project analyzes financial Twitter data alongside stock market data to inve
 The objective was to determine whether Natural Language Processing (NLP) features derived from social media text can enhance machine learning classification models to predict market trends.
 
 ## Methods
-- Collection of financial tweet data and stock price data from public datasets  
-- Text preprocessing including tokenization, stopword removal, and stemming  
-- Sentiment analysis using TextBlob to extract polarity scores from tweets  
-- Feature engineering using TF-IDF vectorization, word embeddings, and cosine similarity  
-- Machine learning classification using:
+1. Collection of financial tweet data and stock price data from public datasets
+2. Text preprocessing including tokenization, stopword removal, and stemming
+3. Sentiment analysis using TextBlob to extract polarity scores from tweets
+4. Feature engineering using TF-IDF vectorization, word embeddings, and cosine similarity
+5. Machine learning classification using:
   - Logistic Regression
   - Random Forest
-  - Stochastic Gradient Descent  
-- Model evaluation using accuracy, F1-score, and cross-validation
+  - Stochastic Gradient Descent
+6. Model evaluation using accuracy, F1-score, and cross-validation
 
 
 ## Results
