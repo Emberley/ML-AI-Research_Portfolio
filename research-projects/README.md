@@ -26,11 +26,11 @@ Unlike traditional layered neural networks, RayBNN distributes neurons and glial
 I am currently extending RayBNN by integrating RL policy distillation and LLM knowledge distillation to explore reasoning and adaptability.
 
 ### Reinforcement Learning Policy Distillation into RayBNN
-- Train Teacher Polciy with RL algortihm with PPO and Actor/Critic on Atari Game Pong
+- Train Teacher Policy with RL algortihm with PPO and Actor/Critic on Atari Game Pong
 - Use CNN for feature engineering enhancement to downsample the images pixels
 - Distilled trained policy to the RayBNN
-- Modify the archtiretucre for thes trained RayBNN to interact with game Pong
-- Test performance againest Teacher perfomance and convergance rates
+- Modify the architecture and train RayBNN to interact with game Pong
+- Test performance againast Teacher perfomance and convergance rates
 
 ### LLM Knowledge Distillation into RayBNN
 - Distilling knowledge from LLMs into RayBNN to study reasoning  
