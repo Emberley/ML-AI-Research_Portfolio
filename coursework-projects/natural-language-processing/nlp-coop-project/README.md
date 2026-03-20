@@ -2,7 +2,7 @@
 **Data Service Co-op Project (May 2024 – December 2024)**
 
 ## Overview
-This project develops a natural language processing (NLP) pipeline to cluster and group related operational tickets, gaining greater insights into techincal issues that are imapacting mulitple minitsires. The applictaion allows to group technical issues to give a more detailed understanding of what technicals issues are happening.
+In this project, a natural language processing (NLP) pipeline was designed to cluster and group related operational tickets, allowing for more detailed analysis of technical issues impacting government ministries. The application processes and analyzes ticket data to identify patterns, group similar incidents, and provide a clearer understanding of recurring technical problems. This enables more informed decision-making and improves operational efficiency in IT service management.
 
 ## Methods
 1. Data preprocession from service desk tickets database
