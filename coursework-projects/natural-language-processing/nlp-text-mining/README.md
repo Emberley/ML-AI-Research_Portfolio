@@ -13,9 +13,9 @@ The objective was to determine whether Natural Language Processing (NLP) feature
 3. Sentiment analysis using TextBlob to extract polarity scores from tweets
 4. Feature engineering using TF-IDF vectorization, word embeddings, and cosine similarity
 5. Machine learning classification using:
-  - Logistic Regression
-  - Random Forest
-  - Stochastic Gradient Descent
+    - Logistic Regression
+    - Random Forest
+    - Stochastic Gradient Descent
 6. Model evaluation using accuracy, F1-score, and cross-validation
 
 
