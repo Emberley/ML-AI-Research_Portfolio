@@ -30,10 +30,14 @@ I am currently extending RayBNN by integrating RL policy distillation and LLM kn
 - Use CNN for feature engineering enhancement to downsample the images pixels
 - Distilled trained policy to the RayBNN
 - Modify the architecture and train RayBNN to interact with game Pong
-- Test performance againast Teacher perfomance and convergance rates
+- Test performance against Teacher perfomance and convergance rates
 
 ### LLM Knowledge Distillation into RayBNN
-- Distilling knowledge from LLMs into RayBNN to study reasoning  
+- Distilling knowledge from LLMs into RayBNN to study reasoning
+- Literature review to find best performing models on the the reasoning dataset
+- Train Teacher Model
+- Distill into RayBNN
+- Compare performance
 ---
 
 ![RayBNN 3D Architecture](images/raybnn_3d.png)  
