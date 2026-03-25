@@ -16,6 +16,7 @@ All models share a CNN feature extractor:
   - Policy logits (PPO, A2C)
   - Value function (PPO, A2C)
   - Q-values (DQN)
+- Gymnasium Atari: `ALE/Pong-v5`
 
 ## Structure
 ```text
@@ -28,12 +29,6 @@ teacher/
 ├── train_dqn.py
 └── evaluate.py
 
-## Environment
-- Gymnasium Atari: `ALE/Pong-v5`
-- Preprocessing:
-  - Grayscale
-  - Resize to 84×84
-  - Frame stacking (4 frames)
 
 ```bash
 python main.py
