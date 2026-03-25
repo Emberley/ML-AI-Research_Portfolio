@@ -19,7 +19,7 @@ All models share a CNN feature extractor:
 - Gymnasium Atari: `ALE/Pong-v5`
 
 ## Structure
-'''text
+```text
 teacher/
 ├── config.py
 ├── env.py
