@@ -28,6 +28,7 @@ teacher/
 ├── train_a2c.py
 ├── train_dqn.py
 └── evaluate.py
+```
 
 ## Run
 ```bash
