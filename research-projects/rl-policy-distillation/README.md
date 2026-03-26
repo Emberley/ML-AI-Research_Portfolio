@@ -26,7 +26,7 @@ This project explores policy distillation and behavior cloning using reinforceme
 # Atari Pong Teacher Models (RL)
 
 ## Overview
-Thmode teacher folder implements three reinforcement learning teacher models trained on the Atari Pong environment. These models are used to learn strong control policies that will later be distilled into the RayBNN model.
+The teacher folder implements three reinforcement learning teacher models trained on the Atari Pong environment. These models are used to learn strong control policies that will later be distilled into the RayBNN model.
 
 ## Algorithms
 - **PPO (Proximal Policy Optimization)** — stable policy gradient method with clipped objective
